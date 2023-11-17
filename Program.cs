@@ -11,8 +11,8 @@ public class DdsToPngConverter
         string outputFormat = ".png"; // Output file format
 
         // Define source and destination folders
-        string sourceFolder = "F:\\Chronicles of Madrigal\\Input"; // Enter Input Folder
-        string destinationFolder = "F:\\Chronicles of Madrigal\\Output"; // Enter Output Folder
+        string sourceFolder = "F:\\Input"; // Enter Input Folder
+        string destinationFolder = "F:\\Output"; // Enter Output Folder
 
         // Get a list of image files with the specified input format in the source folder
         string[] imageFiles = Directory.GetFiles(sourceFolder, inputFormat);
